@@ -1,0 +1,5 @@
+config t
+   Int Vlan 1
+     no shutdown
+	 ip add 10.61.1.4 255.255.255.0
+	 description MGMTDATA
