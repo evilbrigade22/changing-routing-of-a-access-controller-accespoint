@@ -1,0 +1,4 @@
+route add 10._.0.0 mask 255.255.0.0 10._1.4
+
+
+(the underline change it base on the ip you put on the switch)
