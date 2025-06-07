@@ -1,0 +1,6 @@
+config t
+int g0/1
+sw
+
+
+(This is for the changing of the or removing some based on the port)
