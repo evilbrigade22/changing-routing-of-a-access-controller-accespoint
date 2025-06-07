@@ -1,0 +1,14 @@
+ Int Vlan 10
+     no shutdown
+	 ip add 10._.10.4 255.255.255.0
+	 description WIRELESS
+     interface g0/8
+     vlan 10
+   name WIFIVLAN
+     Int g0/8
+  switchport mode access
+  switchport access vlan 1
+
+
+
+(This for creating or i mean changing the vlan of the ports where i connected it like the Int g0/8 that is where i connected the access point)
